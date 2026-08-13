@@ -1,0 +1,8 @@
+vim.cmd("set number")
+vim.cmd("set relativenumber")
+vim.cmd("set tabstop=2")
+vim.cmd("set shiftwidth=2")
+print("Welcome to Lobster's new Fedora Experience")
+require("lobster.remap")
+require("lobster.lazy")
+require("lobster.def")
