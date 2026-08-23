@@ -31,7 +31,7 @@ export PATH=$MAVEN_HOME/bin:$PATH
 
 export PATH=/home/lobster/Files/Programs/flutter/bin/:$PATH
 
-alias config='/usr/bin/git --git-dir=/home/lobster/.dotfiles.git --work-tree=/home/lobster'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles.git --work-tree=$HOME'
 alias vid='mpv --vo=kitty --profile=sw-fast --vo-kitty-use-shm=yes'
 alias vim='nvim'
 
