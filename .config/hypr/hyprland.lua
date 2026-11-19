@@ -177,6 +177,9 @@ hl.config({
         -- Please see https://wiki.hypr.land.org/Configuring/Tearing/ before you turn this on
         allow_tearing = false,
     },
+		render={
+			cm_auto_hdr=0,
+		},
     decoration = {
         -- See https://wiki.hypr.land.org/Configuring/Variables/ for more
         rounding = 10,
